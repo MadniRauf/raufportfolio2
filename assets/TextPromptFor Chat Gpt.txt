@@ -1,0 +1,3 @@
+generate html for this web site and CSS file separately. give me this assuming i have all assets. tell me which assets to place where
+
+
