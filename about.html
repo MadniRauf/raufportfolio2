@@ -2,98 +2,292 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Abdul Rauf</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="images/favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Abdul Rauf</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<!-- Include Bootstrap CSS in your <head> if not already -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      line-height: 1.6;
+    }
+
+    h1,
+    h2 {
+      color: #2c3e50;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .download {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 15px;
+      background: #3498db;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .profile-section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #0d6efd;
+      margin-bottom: 20px;
+    }
+
+    .skills-section {
+      padding: 40px 20px;
+    }
+
+    .card {
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+.card-header {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+ul li {
+  line-height: 1.6;
+}
 
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            line-height: 1.6;
-        }
-        h1, h2 {
-            color: #2c3e50;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-        }
-        .download {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 15px;
-            background: #3498db;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .footer{
-            padding: 20px;
-            text-align: center;
-            margin-top: 40px;
-        }
-    </style>
-   </head>
+    .footer {
+      padding: 20px;
+      text-align: center;
+      margin-top: 40px;
+    }
+  </style>
+</head>
 
 <body>
-    <header>
-        <nav>
-            <div class="logo"><a href="index.html">Abdul Rauf</a></div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <nav>
+      <div class="logo"><a href="index.html">Abdul Rauf</a></div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <div class="container">
-        <section class="about-me">
+  <div class="container">
 
-        <h1>About Me</h1>
-        <h2>Abdul Rauf – Full-Stack Developer & Educator</h2>
-        <p>I am Abdul Rauf, an experienced full-stack developer specializing in desktop and web applications. With expertise in VB.NET, C#, SQL Server, Asp.net Core Mvc, React Js, Node Js and DevExpress, I have successfully developed various software solutions.</p>
-        
-        <h2>Education</h2>
-        <ul>
-            <li>MCS (Master of Computer Science - Software Technology), Al-Khair University, Hyderabad</li>
-            <li>B.Com, Sindh University, Jamshoro</li>
-            <li>BSc, Sindh University, Jamshoro</li>
-            <li>Intermediate, New Ali Garh College, Tando Adam</li>
-            <li>Matriculation, Sir Syed High School, Tando Adam</li>
-        </ul>
-        
-        <h2>Work Experience</h2>
-        <ul>
-            <li><b>Point of Sale System:</b> Sales, purchase, stock, Accounting, Finance and ledger management</li>
-            <li><b>Dr.OPD Software:</b> Patient slip generation & record management</li>
-            <li><b>School Management System:</b> Fee management, student records, and certificates</li>
-            <li><b>Land/Property Registry Software:</b> Developed in Sindhi language</li>
-        </ul>
-        
-        <h2>Teaching Experience</h2>
-        <p>With 20 years of experience in computer education, I specialize in Microsoft Office, web designing, graphic designing, freelancing, Digital Marketing, video editing, and animation.</p>
-        
-        <h2>Personal Interests</h2>
-        <p>I am passionate about technology, software development, teaching, and digital creativity.</p>
-        
-        <p><b>Contact:</b> <a href="mailto:rauftdm92@gmail.com">rauftdm92@gmail.com</a></p>
-        
-   <a class="download" href="./assets/resume.pdf">Download Resume</a> 
-        <!-- <a href="assets/resume.pdf" class="btn" download>Download Resume2</a> -->
+
+    <!-- 🧑‍💻 PROFILE SECTION -->
+    <section class="profile-section container">
+      <img src="assets/images/profile5.png" alt="Abdul Rauf" class="profile-img" />
+      <h2 class="fw-bold">Abdul Rauf</h2>
+      <p>Full-Stack Developer with 20+ Years in Education and Software Development</p>
+      <a class="btn btn-primary mt-3" href="assets/resume.pdf" download>Download Resume</a>
     </section>
+
+
+    <!-- 🛠️ SKILLS SECTION -->
+    <section class="skills-section container">
+      <h3 class="text-center mb-5">My Skills</h3>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card p-3 text-center shadow-sm">
+            <h5>VB.NET / C#</h5>
+            <p>Desktop App Development, WinForms, LINQ, DevExpress</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3 text-center shadow-sm">
+            <h5>ASP.NET Core MVC</h5>
+            <p>Web apps, backend APIs, Razor views, SQL integration</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3 text-center shadow-sm">
+            <h5>React / Node.js</h5>
+            <p>Modern frontend development & backend REST APIs</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3 text-center shadow-sm">
+            <h5>SQL Server</h5>
+            <p>Database design, procedures, backup & reporting</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3 text-center shadow-sm">
+            <h5>Teaching & Training</h5>
+            <p>20+ years of experience in IT education & mentoring</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3 text-center shadow-sm">
+            <h5>Graphics & Web</h5>
+            <p>Web design, logo creation, Photoshop, Illustrator</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+<!-- Education Section -->
+  <div class="card mb-3 shadow-sm">
+    <div class="card-header bg-primary text-white">
+      <h5 class="mb-0">🎓 Education</h5>
     </div>
+    <div class="card-body">
+      <ul class="mb-0">
+        <li>MCS (Master of Computer Science - Software Technology), Al-Khair University, Hyderabad</li>
+        <li>B.Com, Sindh University, Jamshoro</li>
+        <li>BSc, Sindh University, Jamshoro</li>
+        <li>Intermediate, New Ali Garh College, Tando Adam</li>
+        <li>Matriculation, Sir Syed High School, Tando Adam</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Work Experience -->
+  <div class="card mb-3 shadow-sm">
+    <div class="card-header bg-success text-white">
+      <h5 class="mb-0">💼 Work Experience</h5>
+    </div>
+    <div class="card-body">
+      <ul class="mb-0">
+        <li><strong>Point of Sale System:</strong> Sales, purchase, stock, Accounting, Finance and ledger management</li>
+        <li><strong>Dr.OPD Software:</strong> Patient slip generation & record management</li>
+        <li><strong>School Management System:</strong> Fee management, student records, and certificates</li>
+        <li><strong>Land/Property Registry Software:</strong> Developed in Sindhi language</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Teaching Experience -->
+  <div class="card mb-3 shadow-sm">
+    <div class="card-header bg-info text-white">
+      <h5 class="mb-0">👨‍🏫 Teaching Experience</h5>
+    </div>
+    <div class="card-body">
+      <p>With <strong>20 years</strong> of experience in computer education, I specialize in:</p>
+      <ul>
+        <li>Microsoft Office</li>
+        <li>Web Designing</li>
+        <li>Graphic Designing</li>
+        <li>Freelancing</li>
+        <li>Digital Marketing</li>
+        <li>Video Editing & Animation</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Personal Interests -->
+  <div class="card mb-3 shadow-sm">
+    <div class="card-header bg-warning text-dark">
+      <h5 class="mb-0">💡 Personal Interests</h5>
+    </div>
+    <div class="card-body">
+      <p>I am passionate about <strong>technology, software development, teaching, and digital creativity</strong>.</p>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div class="card mb-3 shadow-sm">
+    <div class="card-header bg-dark text-white">
+      <h5 class="mb-0">📬 Contact</h5>
+    </div>
+    <div class="card-body">
+      <p>Email: <a href="mailto:rauftdm92@gmail.com">rauftdm92@gmail.com</a></p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <section class="about-me">
-        <!-- <h1>About Me</h1>
+
+      <h1>About Me</h1>
+      <h2>Abdul Rauf – Full-Stack Developer & Educator</h2>
+      <p>I am Abdul Rauf, an experienced full-stack developer specializing in desktop and web applications. With
+        expertise in VB.NET, C#, SQL Server, Asp.net Core Mvc, React Js, Node Js and DevExpress, I have successfully
+        developed various software solutions.</p>
+
+      <h2>Education</h2>
+      <ul>
+        <li>MCS (Master of Computer Science - Software Technology), Al-Khair University, Hyderabad</li>
+        <li>B.Com, Sindh University, Jamshoro</li>
+        <li>BSc, Sindh University, Jamshoro</li>
+        <li>Intermediate, New Ali Garh College, Tando Adam</li>
+        <li>Matriculation, Sir Syed High School, Tando Adam</li>
+      </ul>
+
+      <h2>Work Experience</h2>
+      <ul>
+        <li><b>Point of Sale System:</b> Sales, purchase, stock, Accounting, Finance and ledger management</li>
+        <li><b>Dr.OPD Software:</b> Patient slip generation & record management</li>
+        <li><b>School Management System:</b> Fee management, student records, and certificates</li>
+        <li><b>Land/Property Registry Software:</b> Developed in Sindhi language</li>
+      </ul>
+
+      <h2>Teaching Experience</h2>
+      <p>With 20 years of experience in computer education, I specialize in Microsoft Office, web designing, graphic
+        designing, freelancing, Digital Marketing, video editing, and animation.</p>
+
+      <h2>Personal Interests</h2>
+      <p>I am passionate about technology, software development, teaching, and digital creativity.</p>
+
+      <p><b>Contact:</b> <a href="mailto:rauftdm92@gmail.com">rauftdm92@gmail.com</a></p>
+
+      <a class="download" href="./assets/resume.pdf">Download Resume</a>
+      <!-- <a href="assets/resume.pdf" class="btn" download>Download Resume2</a> -->
+    </section>
+  </div>
+
+
+
+
+
+
+
+  <section class="about-me">
+    <!-- <h1>About Me</h1>
         <p>My name is Abdul Rauf, a full-stack developer with expertise in mobile and web development...</p>
         <h2>Education</h2>
         <p>Details about education</p>
@@ -102,25 +296,25 @@
         <h2>Personal Interests</h2>
         <p>Details about personal interests</p>
         <a href="assets/resume.pdf" class="btn" download>Download Resume3</a> -->
-    </section>
+  </section>
 
   <!--   <footer class="footer">
         <p>&copy; 2024 Abdul Rauf Portfolio. All Rights Reserved.</p>
     </footer> -->
 
-    <footer>
-        <p>&copy; 2024 Abdul Rauf Portfolio. All Rights Reserved.</p>
-        <p>Contact: <a href="mailto:tdm.tech23@gmail.com">rauftdm92@gmail.com</a> | Phone/Whatsapp: +923003350311</p>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/abdul-rauf-technode-tdm/" target="_blank">LinkedIn</a> |
-            <a href="https://www.facebook.com/TechNodeEducation" target="_blank">Facebook</a> |
-            <a href="https://github.com/MadniRauf" target="_blank">GitHub</a>
-        </div>
-    </footer>
+  <footer>
+    <p>&copy; 2024 Abdul Rauf Portfolio. All Rights Reserved.</p>
+    <p>Contact: <a href="mailto:tdm.tech23@gmail.com">rauftdm92@gmail.com</a> | Phone/Whatsapp: +923003350311</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/abdul-rauf-technode-tdm/" target="_blank">LinkedIn</a> |
+      <a href="https://www.facebook.com/TechNodeEducation" target="_blank">Facebook</a> |
+      <a href="https://github.com/MadniRauf" target="_blank">GitHub</a>
+    </div>
+  </footer>
 
-    <script src="js/script.js"></script>
+  <script src="js/script.js"></script>
 
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 
 
